@@ -4,4 +4,6 @@ import "./app.css";
 
 const films = new Films(document.body);
 
-films.init();
+document.addEventListener("DOMContentLoaded", () => {
+  films.init();
+});
