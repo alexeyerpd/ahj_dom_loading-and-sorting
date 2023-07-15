@@ -3,7 +3,6 @@
   "extends": ["eslint:recommended", "plugin:prettier/recommended"],
   "env": {
     "es6": true,
-    "es2024": true,
     "browser": true,
     "jest/globals": true
   },
