@@ -1,0 +1,25 @@
+.films {
+  border: 1px solid #000;
+  text-align: left;
+}
+
+.column {
+  padding: 10px;
+  border: 1px solid #000;
+}
+
+.direction {
+  width: 14px;
+  height: 14px;
+
+  visibility: hidden;
+}
+
+.column_filtered_desc .direction,
+.column_filtered_asc .direction {
+  visibility: visible;
+}
+
+.column_filtered_desc .direction {
+  transform: rotate(180deg);
+}
